@@ -15,7 +15,6 @@ typedef struct _stage_ {
     struct _work_       *data;           /* Data to process */
 	struct _stage_      *next;          /* Next stage */
     pthread_t           thread;         /* Thread for stage */
-	int					id;
 } stage_t;
 
 
